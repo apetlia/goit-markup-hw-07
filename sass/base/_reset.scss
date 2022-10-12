@@ -1,22 +1,10 @@
-.link {
-  text-decoration: none;
-}
-
-.list {
-  list-style-type: none;
-}
-
 p,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
+h6,
 ul {
   margin: 0;
   padding: 0;
@@ -29,10 +17,18 @@ img {
 body {
   font-family: 'Roboto', sans-serif;
 
-  background-color: var(--main-bg-color);
-  color: var(--text-color);
+  background-color: $main-bg-color;
+  color: $text-color;
 }
 
 button {
   cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
 }

@@ -1,5 +1,5 @@
 .team {
-  background-color: var(--second-bg-color);
+  background-color: $second-bg-color;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -12,7 +12,7 @@
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--title-color);
+  color: $title-color;
 }
 
 .team__set {
@@ -35,7 +35,7 @@
 
   text-align: center;
 
-  background-color: var(--main-bg-color);
+  background-color: $main-bg-color;
 }
 
 .team__name {
@@ -46,7 +46,7 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
 
-  color: var(--title-color);
+  color: $title-color;
 }
 
 .team__position {
@@ -56,37 +56,5 @@
   line-height: 1.18;
   letter-spacing: 0.03em;
 
-  color: var(--text-color);
-}
-
-.soc-set {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
-
-.soc-set__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  color: #afb1b8;
-  transition: color var(--animation-time), background-color var(--animation-time);
-
-  &:hover {
-    color: #ffffff;
-    background-color: var(--accent-color);
-  }
-}
-
-.soc-set__icon {
-  fill: currentColor;
-}
-
-.soc-set__item--dark {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: $text-color;
 }
