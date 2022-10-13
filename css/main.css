@@ -68,6 +68,98 @@ button {
   list-style-type: none;
 }
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 94px;
+}
+
+.auth__list {
+  display: flex;
+  column-gap: 50px;
+}
+
+/* .auth-item:not(:last-child) {
+  margin-right: 50px;
+} */
+.auth__link {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.auth__link:hover, .auth__link:focus {
+  color: #2196f3;
+}
+
+.auth__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer > .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__wrap-address {
+  margin-right: 70px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.footer__wrap-soc {
+  margin-right: 90px;
+}
+
+.fotter__title {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer__input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 10px;
+  outline: none;
+  background-color: inherit;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: #ffffff;
+}
+.footer__input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -111,6 +203,12 @@ button {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+.logo--black {
+  color: #000;
+}
+.logo--white {
+  color: #ffffff;
 }
 
 .logo__span {
@@ -193,6 +291,10 @@ button {
   color: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.soc-set__item--dark {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+}
 .soc-set__item:hover {
   color: #ffffff;
   background-color: #2196f3;
@@ -200,11 +302,6 @@ button {
 
 .soc-set__icon {
   fill: currentColor;
-}
-
-.soc-set__item--dark {
-  color: white;
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .backdrop {
@@ -376,49 +473,6 @@ button {
 }
 .checkbox__input:focus ~ .checkbox__icon-off {
   outline: 5px auto -webkit-focus-ring-color;
-}
-
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
-.header > .container {
-  display: flex;
-  align-items: center;
-}
-
-.header__logo {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin-right: 94px;
-  color: #000000;
-}
-
-.auth__list {
-  display: flex;
-  column-gap: 50px;
-}
-
-/* .auth-item:not(:last-child) {
-  margin-right: 50px;
-} */
-.auth__link {
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.auth__link:hover, .auth__link:focus {
-  color: #2196f3;
-}
-
-.auth__icon {
-  margin-right: 10px;
-  fill: currentColor;
 }
 
 .hero {
@@ -737,55 +791,4 @@ button {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.footer {
-  background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.footer > .container {
-  display: flex;
-  align-items: baseline;
-}
-
-.footer__wrap-address {
-  margin-right: 70px;
-}
-
-.footer__logo {
-  margin-bottom: 20px;
-  color: #ffffff;
-}
-
-.footer__wrap-soc {
-  margin-right: 90px;
-}
-
-.fotter__title {
-  margin-bottom: 20px;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-.footer__input {
-  width: 358px;
-  height: 50px;
-  padding: 15px 16px;
-  margin-right: 10px;
-  outline: none;
-  background-color: inherit;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  color: #ffffff;
-}
-.footer__input::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }/*# sourceMappingURL=main.css.map */

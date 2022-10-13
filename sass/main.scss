@@ -4,6 +4,8 @@
 
 @import './base/reset';
 
+@import './components/header';
+@import './components/footer';
 @import './components/container';
 @import './components/navigation';
 @import './components/logo';
@@ -15,7 +17,6 @@
 @import './components/feedback-form';
 @import './components/checkbox';
 
-@import './layout/header';
 @import './layout/hero';
 @import './layout/priorities';
 @import './layout/our-work';
@@ -23,4 +24,3 @@
 @import './layout/clients';
 @import './layout/portfolio';
 @import './layout/projects';
-@import './layout/footer';
